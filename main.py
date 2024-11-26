@@ -6,7 +6,7 @@ import asyncio
 from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import StatesGroup, State
 
-API_TOKEN = "7572620497:AAG-K8QRbtT82uCv6hovcThlRyZKx9Qjcjg"
+API_TOKEN = "Ваш токен"
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher()
 
@@ -14,7 +14,7 @@ dp = Dispatcher()
 user_data = {}
 
 # Список разрешённых администраторов по user_id
-ALLOWED_ADMINS = [314485159, 987654321]  # Замените на реальные user_id администраторов
+ALLOWED_ADMINS = [123456789, 987654321]  # Замените на реальные user_id администраторов
 
 # Состояния для админов
 class AdminStates(StatesGroup):
